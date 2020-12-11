@@ -27,10 +27,16 @@ let moviesArray = ["It", "ET", "Up", "It 2", "D2", "Us", "Red", "Go"];
 // Psychotic Bird
 // In your JavaScript file, write a while loop that outputs the phrase "TWEET TWEET" 100 times to the console.
 
-let i = 1;
+// let i = 1;
 
-while (i <= 100) {
-  console.log("TWEET TWEET");
-  console.log(i)
-  i++
+// while (i <= 100) {
+//   console.log("TWEET TWEET");
+//   console.log(i)
+//   i++
+// }
+
+// for loops
+
+for (let i = 0; i < moviesArray.length; i++) {
+  console.log(moviesArray[i]);
 }
