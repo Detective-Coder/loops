@@ -37,6 +37,16 @@ let moviesArray = ["It", "ET", "Up", "It 2", "D2", "Us", "Red", "Go"];
 
 // for loops
 
-for (let i = 0; i < moviesArray.length; i++) {
-  console.log(moviesArray[i]);
+// for (let i = 0; i < moviesArray.length; i++) {
+//   console.log(moviesArray[i]);
+// }
+
+for (let i = 1; i <= 100; i++) {
+  console.log("TWEET TWEET");
+}
+
+let favoriteFoods = ["tacos", "pizza", "burgers", "cake", "chicken"];
+
+for (let i = 0; i < favoriteFoods.length; i++) {
+  console.log(favoriteFoods[i]);
 }
